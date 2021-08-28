@@ -1,0 +1,38 @@
+.main {
+    margin: 0px auto;
+    width: 400px; height: 400px;
+    background-color:aquamarine;
+    position: relative;
+    border-radius: 200px;
+}
+
+.eye1 {
+    background-color: white;
+    width: 80px; height: 80px;
+    position: absolute;
+    top: 80px; left: 80px;
+    border-radius: 50px;
+    z-index: 3;
+}
+
+.eye2 {
+    background-color: white;
+    width: 80px; height: 80px;
+    position: absolute;
+    top: 80px; right: 80px;
+    border-radius: 50px;
+}
+
+.mouth {
+    background-color: white;
+    width: 150px; height: 20px;
+    position: absolute;
+    bottom: 70px; left: 125px;
+}
+
+.nose {
+    background-color: white;
+    width: 80px; height: 80px;
+    position: absolute;
+    top: 190px; left: 160px;
+}
